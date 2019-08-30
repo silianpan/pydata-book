@@ -9,6 +9,12 @@ verify_ssl = true
 numpy = "*"
 lxml = "*"
 jupyter = "*"
+pandas = "*"
+tables = "*"
+xlrd = "*"
+openpyxl = "*"
+requests = "*"
+sqlalchemy = "*"
 
 [requires]
 python_version = "3.7"
