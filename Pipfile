@@ -15,6 +15,7 @@ xlrd = "*"
 openpyxl = "*"
 requests = "*"
 sqlalchemy = "*"
+scipy = "*"
 
 [requires]
 python_version = "3.7"
