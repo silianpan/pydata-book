@@ -10,12 +10,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 stu_df3 = pd.DataFrame({
-    'yuwen': [40, 70, 65, 45],
-    'shuxue': [50, 86, 56, 78],
-    'yingyu': [79, 96, 87, 54]
+    '语文': [40, 70, 65, 45],
+    '数学': [50, 86, 56, 78],
+    '英语': [79, 96, 87, 54]
 },
     index=['zhangsan', 'lisi', 'wangwu', 'zhaoliu'],
-    columns=['yuwen', 'shuxue']
+    columns=['语文', '数学']
 )
+print(stu_df3)
 stu_df3.plot.bar(rot=0, title="student's score")
 plt.show()
